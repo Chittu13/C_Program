@@ -155,7 +155,50 @@ int main()
 
 // 5. To create a symmetrix matrix from assymmetric matrix
 
-
+#include <stdio.h>
+int main()
+{
+    int x,y;
+    printf("Enter the number of rows and columns: \n");
+    scanf("%d%d",&x,&y);
+    int a[x][y],tran[y][x];
+    
+    
+    printf("\nEnter elements:\n");
+    for (int i=0;i<x;i++)
+    {
+        for (int j=0;j<y;j++)
+        {   printf("array[%d][%d]: ",i,j);
+            scanf("%d",&a[i][j]);
+        }
+    }
+    printf("\nEntered symmetrix matrix: \n");
+    for (int i=0;i<x;i++)
+    {
+        for (int j=0;j<y;j++)
+        {   
+            printf("%d  ",a[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\nassymmetric matrix:\n");
+    for(int i=0;i<x;i++)
+    {
+        for (int j=0;j<y;j++)
+        {
+            tran[j][i]=a[i][j];
+            tran[j][i]=tran[j][i]*-1;
+        }
+    }
+    for (int i=0;i<y;i++)
+    {
+        for (int j=0;j<x;j++)
+        {   
+            printf("%d  ",tran[i][j]);
+        }
+        printf("\n");
+    }
+}
 
 
 
