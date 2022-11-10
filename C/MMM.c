@@ -11,8 +11,14 @@ int main()
         scanf("%d",&arr[i]);
         total+=arr[i];
     }
+    
+    //Finding Mean: 
+    
     float sum=total;
     mean=(sum)/n;
+    
+    //sorting the array;
+    
     for(int i=0;i<n;i++)
     {
         for(int j=i+1;j<n;j++)
@@ -25,6 +31,8 @@ int main()
             }
         }
     }
+    //Finding the median
+    
     if(n%2==0)
     {
         median=(n/2+((n/2)+1))/2;
@@ -34,12 +42,17 @@ int main()
       median=(n+1)/2;
     }
     float fmedian=0;
-    fmedian=(int)arr[(int)median];
+    fmedian=(float)arr[(int)median];
+    
+    // Finding the mode
+    
     int maxValue = 0, maxCount = 0;
-   for (int i = 0; i < n; ++i) {
+   for (int i = 0; i < n; ++i) 
+   {
       int count = 0;
       
-      for (int j = 0; j < n; ++j) {
+      for (int j = 0; j < n; ++j) 
+      {
          if (arr[j] == arr[i])
          ++count;
       }
