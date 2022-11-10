@@ -93,7 +93,7 @@ int main()
           sum[i][j]=a[i][j]+b[i][j]; 
         }
     }
-    printf("\n")
+    printf("\n");
     for (int i=0;i<x;i++)
     {
         for (int j=0;j<y;j++)
