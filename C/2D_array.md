@@ -182,7 +182,7 @@ int main()
         }
         printf("\n");
     }
-    printf("\nTransposed symmetric matrix:\n");
+    printf("\nTransposed skew symmetric matrix:\n");
     for(int i=0;i<x;i++)
     {
         for (int j=0;j<y;j++)
