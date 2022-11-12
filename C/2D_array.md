@@ -152,7 +152,7 @@ int main()
 ```
 
 
-# 5. To create a symmetrix matrix from assymmetric matrix.
+# 5. To create a symmetrix matrix from skew symmetric matrix.
 
 
 ```c
