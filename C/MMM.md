@@ -1,4 +1,4 @@
-# Write a program to find Mean,Median,Mode form a user input array
+# 1. Write a program to find Mean,Median,Mode form a user input array
 
 
 ``` c
