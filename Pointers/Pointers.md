@@ -29,8 +29,12 @@ pt = &value;
 }
 ```
 
-####Output
+#### Output
 
-Value at ptr = 0x7ffd15b5deec 
-Value at var = 20 
-Value at *ptr = 20 
+> - Value at ptr = 0x7ffd15b5deec
+
+
+>- Value at var = 20 
+
+
+>- Value at *ptr = 20 
