@@ -10,6 +10,8 @@
 > double - 8
 
 > void - 1
+
+` note: Sometimes the size of the void may be zero or one ` 
  
 
 
