@@ -8,6 +8,7 @@
 
 > realloc()
 
+
 ## Using Malloc
 ```c
 #include <stdio.h>
@@ -19,6 +20,32 @@ int x,*p,num,re;
 printf("Enter the number of elements: ");
 scanf("%d",&x);
 p=(int*)malloc(x*sizeof(int));
+
+for(int i=0;i<x;i++)
+{
+    printf("\nEnter the number: ");
+    scanf("%d",p+i);
+}
+    for(int i=0;i<x;i++)
+      {
+          printf("%d ",*(p+i));
+      }
+    
+    return 0;
+}
+```
+
+## Using Malloc
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() 
+{
+int x,*p,num,re;
+printf("Enter the number of elements: ");
+scanf("%d",&x);
+p=(int*)calloc(x,sizeof(int));
 
 for(int i=0;i<x;i++)
 {
