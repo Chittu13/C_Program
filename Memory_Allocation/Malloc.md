@@ -35,7 +35,10 @@ for(int i=0;i<x;i++)
 }
 ```
 
-## Using Malloc
+
+
+
+## Using Calloc
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -56,6 +59,34 @@ for(int i=0;i<x;i++)
       {
           printf("%d ",*(p+i));
       }
+    
+    return 0;
+}
+```
+
+## Using Malloc and free
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() 
+{
+int x,*p,num,re;
+printf("Enter the number of elements: ");
+scanf("%d",&x);
+p=(int*)malloc(x*sizeof(int));
+
+for(int i=0;i<x;i++)
+{
+    printf("\nEnter the number: ");
+    scanf("%d",p+i);
+}
+    for(int i=0;i<x;i++)
+      {
+          printf("%d ",*(p+i));
+      }
+      free(p);
+      p=NULL;
     
     return 0;
 }
