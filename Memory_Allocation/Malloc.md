@@ -1,8 +1,11 @@
 #  Memory Allocation
 
 > malloc()
+
 > calloc()
+
 > free()
+
 > realloc()
 
 ## Using Malloc and Realloc function
