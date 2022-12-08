@@ -10,8 +10,8 @@
 ### Syntax Of Structure 
 
 ```c
-sturct student{
-	char name[50]
+struct student{
+	char name[50];
 	int age;
 	int roll_no;
 	float marks;
