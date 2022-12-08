@@ -46,7 +46,7 @@ struct node *insert(struct node *ptr, struct node *p)
     else
     {
         display(" ", p);
-        display(" ", ptr);
+        display("", ptr);
         if (p->exp < ptr->exp)
         {
             ptr->link = p;
@@ -58,7 +58,7 @@ struct node *insert(struct node *ptr, struct node *p)
             while ((temp->link != NULL) && (temp->link->exp < ptr->exp))
                 display(" ", temp),
                 temp = temp->link;
-            display("post: ", temp);
+            display("post", temp);
             b = temp->link;
             temp->link = ptr;
             ptr->link = b;
@@ -103,5 +103,4 @@ void err_exit(char const *tag)
     fprintf(stderr, "%s\n", tag);
     exit(1);
 }
-
 ```
