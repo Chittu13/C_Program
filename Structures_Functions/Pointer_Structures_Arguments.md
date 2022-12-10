@@ -33,7 +33,7 @@ struct student{
 
 void print(struct student *p)
 {
-printf("Name: %s\nAge: %d\nRoll_No: %d\nMarks Obtained: %.2f",p->name,p->age,p>roll_no,p->marks);
+printf("Name: %s\nAge: %d\nRoll_No: %d\nMarks Obtained: %.2f",p->name,p->age,p->roll_no,p->marks);
 }
 
 int main()
