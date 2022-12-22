@@ -11,7 +11,7 @@
 
 > void - 1
 
-` note: Sometimes the size of the void may be zero or one 
+`` note: Sometimes the size of the void may be zero or one ``
  
 
 
