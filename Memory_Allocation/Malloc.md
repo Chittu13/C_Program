@@ -2,7 +2,7 @@
 
 > malloc()
 
-> calloc()
+ calloc()
 
 > free()
 
