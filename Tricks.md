@@ -51,7 +51,7 @@ output:
 
 
 
-
+## case 1:
 
 ```c
 #include <stdio.h>
@@ -78,7 +78,7 @@ output:
 
 
 
-
+## case 2:
 
 ```c
 #include <stdio.h>
@@ -104,7 +104,7 @@ output:
 
 
 
-## 3.write a program without using the main funcion
+## 4.write a program without using the main funcion
 
 
 ```c
@@ -118,3 +118,20 @@ int hello()
 }
 
 ```
+
+
+
+
+
+
+## 5.write a program iwhout using the ";"
+
+
+```c 
+#include <stdio.h>
+int main()
+{
+if(printf("Don't sleep")){}
+
+return 0;
+}
