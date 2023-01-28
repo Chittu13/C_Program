@@ -99,3 +99,22 @@ return 0;
 
 output:
 ```hello```
+
+
+
+
+
+## 3.write a program without using the main funcion
+
+
+```c
+#include <stdio.h>
+
+#define hello main
+int hello()
+{
+    printf("hello");
+    
+}
+
+```
